@@ -6,7 +6,7 @@ export const Groupcountry = styled.div`
   flex-direction: row;
 
   select {
-    width: 80%;
+    width: 90%;
     height: 55px;
     font-size: 18px;
   }
@@ -26,22 +26,22 @@ export const Divcountry = styled.div`
     justify-self: center;
 
     .btnSalvar {
-      background: green;
+      background: #7159c1;
       width: 400px;
-      height: 200px;
+      height: 180px;
       font-size: 65px;
       font-weight: bold;
-      margin: 55px 20px 155px 405px;
+      margin: 55px 20px 10px 405px;
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.05, 'green')};
+        background: ${darken(0.05, '#7159c1')};
       }
     }
   }
 
   input {
-    height: 155px;
+    height: 120px;
     font-size: 78px;
     text-align: center;
     margin-top: 155px;
@@ -66,4 +66,9 @@ export const Divcountry = styled.div`
   .btnRemover {
     width: 150px;
   }
+`;
+
+export const Rodape = styled.footer`
+  display: flex;
+  justify-content: space-between;
 `;

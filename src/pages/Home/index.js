@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Input, Select as RokectSelect } from '@rocketseat/unform';
 import { toast } from 'react-toastify';
+import { FaLinkedin, FaGit } from 'react-icons/fa';
 import api from '../../services/api';
-import { Divcountry, Groupcountry } from './styles';
+import { Divcountry, Groupcountry, Rodape } from './styles';
 
 export default function Home() {
   const [country, setCountry] = useState([]);
-  const [countryPopulacao, setCountryPopulacao] = useState('');
+  const [countryPopulacao, setCountryPopulacao] = useState(0);
   const [selecionado, setSelecionado] = useState('');
 
   useEffect(() => {
@@ -36,7 +37,7 @@ export default function Home() {
         const response = await api.put(`country/${selecionado}`, {
           id: selecionado,
           title: dados.data.title,
-          populacao: countryPopulacao,
+          populacao: Number(countryPopulacao),
         });
 
         if (response.data) {
@@ -55,7 +56,7 @@ export default function Home() {
             draggable: true,
           });
 
-          setCountryPopulacao('');
+          // setCountryPopulacao(0);
         }
       }
     }
@@ -90,34 +91,45 @@ export default function Home() {
   }
 
   return (
-    <Divcountry>
-      <Groupcountry>
-        <RokectSelect
-          name="title"
-          options={country}
-          placeholder="Selecione o país:"
-          onChange={e => handleChangeCountry(e)}
-        />
-        <button
-          className="btnRemover"
-          type="button"
-          onClick={handleRemoverPais}
-        >
-          Remover item
-        </button>
-      </Groupcountry>
+    <>
+      <Divcountry>
+        <Groupcountry>
+          <RokectSelect
+            name="title"
+            options={country}
+            placeholder="Selecione o país:"
+            onChange={e => handleChangeCountry(e)}
+          />
+          <button
+            className="btnRemover"
+            type="button"
+            onClick={handleRemoverPais}
+          >
+            Remover item
+          </button>
+        </Groupcountry>
 
-      <Form onSubmit={handleSubmit}>
-        <Input
-          name="teste"
-          value={countryPopulacao}
-          onChange={e => setCountryPopulacao(e.target.value)}
-          placeholder="Digite a população aqui"
-        />
-        <button className="btnSalvar" type="submit">
-          Salvar
-        </button>
-      </Form>
-    </Divcountry>
+        <Form onSubmit={handleSubmit}>
+          <Input
+            name="teste"
+            type="number"
+            value={countryPopulacao}
+            onChange={e => setCountryPopulacao(e.target.value)}
+            placeholder="Digite a população aqui"
+          />
+          <button className="btnSalvar" type="submit">
+            Salvar
+          </button>
+        </Form>
+      </Divcountry>
+      <Rodape>
+        <a href="https://www.linkedin.com/in/rafael-teles-vital-9002946a/">
+          <FaLinkedin size={100} color="#FFF" />
+        </a>
+        <a href="https://github.com/DevTeles/eventials">
+          <FaGit size={100} color="#FFF" />
+        </a>
+      </Rodape>
+    </>
   );
 }

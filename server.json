@@ -8,7 +8,7 @@
     {
       "id": "ang",
       "title": "ANGOLA",
-      "populacao": "1001"
+      "populacao": 1001
     },
     {
       "title": "ALBANIA",
@@ -38,7 +38,7 @@
     {
       "id": "arg",
       "title": "ARGENTINA",
-      "populacao": "2"
+      "populacao": 11
     },
     {
       "title": "ARMENIA",
@@ -46,14 +46,14 @@
       "populacao": 0
     },
     {
-      "title": "ARUBA",
       "id": "aru",
-      "populacao": 0
+      "title": "ARUBA",
+      "populacao": 2
     },
     {
       "id": "aus",
       "title": "AUSTRALIA",
-      "populacao": "1"
+      "populacao": 1
     },
     {
       "title": "AUSTRIA",
@@ -68,7 +68,7 @@
     {
       "id": "bah",
       "title": "BAHAMAS",
-      "populacao": "3"
+      "populacao": 3
     },
     {
       "title": "BAHRAIN",
@@ -118,7 +118,7 @@
     {
       "id": "bol",
       "title": "BOLIVIA",
-      "populacao": "55550"
+      "populacao": 55550
     },
     {
       "title": "BOSNIA AND HERZEGOVINA",
@@ -132,7 +132,7 @@
     },
     {
       "title": "BRAZIL",
-      "populacao": "202768123",
+      "populacao": 202768123,
       "id": "bra"
     },
     {

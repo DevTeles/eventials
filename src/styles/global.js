@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-
+import { lighten } from 'polished';
 import 'react-toastify/dist/ReactToastify.css';
 import background from '../assets/images/background.svg';
 
@@ -14,7 +14,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #191920 url(${background}) no-repeat center top;
+    /* background: #191920 url(${background}) no-repeat center top; */
+    background: ${lighten(0.1, 'green')}
     --webkit-font-smoothing: antialiased;
   }
 

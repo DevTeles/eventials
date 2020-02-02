@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { darken, lighten } from 'polished';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.header`
@@ -31,7 +31,7 @@ export const Profile = styled(Link)`
 
     span {
       font-size: 12px;
-      color: #999;
+      color: #fff;
     }
   }
 `;
