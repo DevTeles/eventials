@@ -1,0 +1,1034 @@
+{
+  "country": [
+    {
+      "title": "AFGHANISTAN",
+      "id": "afg",
+      "populacao": 0
+    },
+    {
+      "id": "ang",
+      "title": "ANGOLA",
+      "populacao": "1001"
+    },
+    {
+      "title": "ALBANIA",
+      "id": "alb",
+      "populacao": 0
+    },
+    {
+      "title": "ALGERIA",
+      "id": "alg",
+      "populacao": 0
+    },
+    {
+      "title": "AMERICAN SAMOA",
+      "id": "asa",
+      "populacao": 0
+    },
+    {
+      "title": "ANDORRA",
+      "id": "and",
+      "populacao": 0
+    },
+    {
+      "title": "ANTIGUA AND BARBUDA",
+      "id": "ant",
+      "populacao": 0
+    },
+    {
+      "id": "arg",
+      "title": "ARGENTINA",
+      "populacao": "2"
+    },
+    {
+      "title": "ARMENIA",
+      "id": "arm",
+      "populacao": 0
+    },
+    {
+      "title": "ARUBA",
+      "id": "aru",
+      "populacao": 0
+    },
+    {
+      "id": "aus",
+      "title": "AUSTRALIA",
+      "populacao": "1"
+    },
+    {
+      "title": "AUSTRIA",
+      "id": "aut",
+      "populacao": 0
+    },
+    {
+      "title": "AZERBAIJAN",
+      "id": "aze",
+      "populacao": 0
+    },
+    {
+      "id": "bah",
+      "title": "BAHAMAS",
+      "populacao": "3"
+    },
+    {
+      "title": "BAHRAIN",
+      "id": "brn",
+      "populacao": 0
+    },
+    {
+      "title": "BANGLADESH",
+      "id": "ban",
+      "populacao": 0
+    },
+    {
+      "title": "BARBADOS",
+      "id": "bar",
+      "populacao": 0
+    },
+    {
+      "title": "BELARUS",
+      "id": "blr",
+      "populacao": 0
+    },
+    {
+      "title": "BELGIUM",
+      "id": "bel",
+      "populacao": 0
+    },
+    {
+      "title": "BELIZE",
+      "id": "biz",
+      "populacao": 0
+    },
+    {
+      "title": "BENIN",
+      "id": "ben",
+      "populacao": 0
+    },
+    {
+      "title": "BERMUDA",
+      "id": "ber",
+      "populacao": 0
+    },
+    {
+      "title": "BHUTAN",
+      "id": "bhu",
+      "populacao": 0
+    },
+    {
+      "id": "bol",
+      "title": "BOLIVIA",
+      "populacao": "55550"
+    },
+    {
+      "title": "BOSNIA AND HERZEGOVINA",
+      "id": "bih",
+      "populacao": 0
+    },
+    {
+      "title": "BOTSWANA",
+      "id": "bot",
+      "populacao": 0
+    },
+    {
+      "title": "BRAZIL",
+      "populacao": "202768123",
+      "id": "bra"
+    },
+    {
+      "title": "BRUNEI DARUSSALAM",
+      "id": "bru",
+      "populacao": 0
+    },
+    {
+      "title": "BULGARIA",
+      "id": "bul",
+      "populacao": 0
+    },
+    {
+      "title": "BURKINA FASO",
+      "id": "bur",
+      "populacao": 0
+    },
+    {
+      "title": "BURUNDI",
+      "id": "bdi",
+      "populacao": 0
+    },
+    {
+      "title": "CAMBODIA",
+      "id": "cam",
+      "populacao": 0
+    },
+    {
+      "title": "CAMEROON",
+      "id": "cmr",
+      "populacao": 0
+    },
+    {
+      "title": "CANADA",
+      "id": "can",
+      "populacao": 0
+    },
+    {
+      "title": "CAPE VERDE",
+      "id": "cpv",
+      "populacao": 0
+    },
+    {
+      "title": "CAYMAN ISLANDS",
+      "id": "cay",
+      "populacao": 0
+    },
+    {
+      "title": "CENTRAL AFRICAN REPUBLIC",
+      "id": "caf",
+      "populacao": 0
+    },
+    {
+      "title": "CHAD",
+      "id": "cha",
+      "populacao": 0
+    },
+    {
+      "title": "CHILE",
+      "id": "chi",
+      "populacao": 0
+    },
+    {
+      "title": "CHINESE TAIPEI",
+      "id": "tpe",
+      "populacao": 0
+    },
+    {
+      "title": "COLOMBIA",
+      "id": "col",
+      "populacao": 0
+    },
+    {
+      "title": "COMOROS",
+      "id": "com",
+      "populacao": 0
+    },
+    {
+      "title": "CONGO",
+      "id": "cgo",
+      "populacao": 0
+    },
+    {
+      "title": "COOK ISLANDS",
+      "id": "cok",
+      "populacao": 0
+    },
+    {
+      "title": "COSTA RICA",
+      "id": "crc",
+      "populacao": 0
+    },
+    {
+      "title": "CÔTE D'IVOIRE",
+      "id": "civ",
+      "populacao": 0
+    },
+    {
+      "title": "CROATIA",
+      "id": "cro",
+      "populacao": 0
+    },
+    {
+      "title": "CUBA",
+      "id": "cub",
+      "populacao": 0
+    },
+    {
+      "title": "CYPRUS",
+      "id": "cyp",
+      "populacao": 0
+    },
+    {
+      "title": "CZECH REPUBLIC",
+      "id": "cze",
+      "populacao": 0
+    },
+    {
+      "title": "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+      "id": "prk",
+      "populacao": 0
+    },
+    {
+      "title": "DEMOCRATIC REPUBLIC OF THE CONGO",
+      "id": "cod",
+      "populacao": 0
+    },
+    {
+      "title": "DENMARK",
+      "id": "den",
+      "populacao": 0
+    },
+    {
+      "title": "DJIBOUTI",
+      "id": "dji",
+      "populacao": 0
+    },
+    {
+      "title": "DOMINICAN REPUBLIC",
+      "id": "dom",
+      "populacao": 0
+    },
+    {
+      "title": "DOMINIQUE",
+      "id": "dma",
+      "populacao": 0
+    },
+    {
+      "title": "ECUADOR",
+      "id": "ecu",
+      "populacao": 0
+    },
+    {
+      "title": "EGYPT",
+      "id": "egy",
+      "populacao": 0
+    },
+    {
+      "title": "EL SALVADOR",
+      "id": "esa",
+      "populacao": 0
+    },
+    {
+      "title": "EQUATORIAL GUINEA",
+      "id": "geq",
+      "populacao": 0
+    },
+    {
+      "title": "ERITREA",
+      "id": "eri",
+      "populacao": 0
+    },
+    {
+      "title": "ESTONIA",
+      "id": "est",
+      "populacao": 0
+    },
+    {
+      "title": "ESWATINI",
+      "id": "swz",
+      "populacao": 0
+    },
+    {
+      "title": "ETHIOPIA",
+      "id": "eth",
+      "populacao": 0
+    },
+    {
+      "title": "FEDERATED STATES OF MICRONESIA",
+      "id": "fsm",
+      "populacao": 0
+    },
+    {
+      "title": "FIJI",
+      "id": "fij",
+      "populacao": 0
+    },
+    {
+      "title": "FINLAND",
+      "id": "fin",
+      "populacao": 0
+    },
+    {
+      "title": "FRANCE",
+      "id": "fra",
+      "populacao": 0
+    },
+    {
+      "title": "GABON",
+      "id": "gab",
+      "populacao": 0
+    },
+    {
+      "title": "GAMBIA",
+      "id": "gam",
+      "populacao": 0
+    },
+    {
+      "title": "GEORGIA",
+      "id": "geo",
+      "populacao": 0
+    },
+    {
+      "title": "GERMANY",
+      "id": "ger",
+      "populacao": 0
+    },
+    {
+      "title": "GHANA",
+      "id": "gha",
+      "populacao": 0
+    },
+    {
+      "title": "GREAT BRITAIN",
+      "id": "gbr",
+      "populacao": 0
+    },
+    {
+      "title": "GREECE",
+      "id": "gre",
+      "populacao": 0
+    },
+    {
+      "title": "GRENADA",
+      "id": "grn",
+      "populacao": 0
+    },
+    {
+      "title": "GUAM",
+      "id": "gum",
+      "populacao": 0
+    },
+    {
+      "title": "GUATEMALA",
+      "id": "gua",
+      "populacao": 0
+    },
+    {
+      "title": "GUINEA",
+      "id": "gui",
+      "populacao": 0
+    },
+    {
+      "title": "GUINEA-BISSAU",
+      "id": "gbs",
+      "populacao": 0
+    },
+    {
+      "title": "GUYANA",
+      "id": "guy",
+      "populacao": 0
+    },
+    {
+      "title": "HAITI",
+      "id": "hai",
+      "populacao": 0
+    },
+    {
+      "title": "HONDURAS",
+      "id": "hon",
+      "populacao": 0
+    },
+    {
+      "title": "HONG KONG, CHINA",
+      "id": "hkg",
+      "populacao": 0
+    },
+    {
+      "title": "HUNGARY",
+      "id": "hun",
+      "populacao": 0
+    },
+    {
+      "title": "ICELAND",
+      "id": "isl",
+      "populacao": 0
+    },
+    {
+      "title": "INDIA",
+      "id": "ind",
+      "populacao": 0
+    },
+    {
+      "title": "INDONESIA",
+      "id": "ina",
+      "populacao": 0
+    },
+    {
+      "title": "IRAQ",
+      "id": "irq",
+      "populacao": 0
+    },
+    {
+      "title": "IRELAND",
+      "id": "irl",
+      "populacao": 0
+    },
+    {
+      "title": "ISLAMIC REPUBLIC OF IRAN",
+      "id": "iri",
+      "populacao": 0
+    },
+    {
+      "title": "ISRAEL",
+      "id": "isr",
+      "populacao": 0
+    },
+    {
+      "title": "ITALY",
+      "id": "ita",
+      "populacao": 0
+    },
+    {
+      "title": "JAMAICA",
+      "id": "jam",
+      "populacao": 0
+    },
+    {
+      "title": "JAPAN",
+      "id": "jpn",
+      "populacao": 0
+    },
+    {
+      "title": "JORDAN",
+      "id": "jor",
+      "populacao": 0
+    },
+    {
+      "title": "KAZAKHSTAN",
+      "id": "kaz",
+      "populacao": 0
+    },
+    {
+      "title": "KENYA",
+      "id": "ken",
+      "populacao": 0
+    },
+    {
+      "title": "KIRIBATI",
+      "id": "kir",
+      "populacao": 0
+    },
+    {
+      "title": "KOSOVO",
+      "id": "kos",
+      "populacao": 0
+    },
+    {
+      "title": "KUWAIT",
+      "id": "kuw",
+      "populacao": 0
+    },
+    {
+      "title": "KYRGYZSTAN",
+      "id": "kgz",
+      "populacao": 0
+    },
+    {
+      "title": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+      "id": "lao",
+      "populacao": 0
+    },
+    {
+      "title": "LATVIA",
+      "id": "lat",
+      "populacao": 0
+    },
+    {
+      "title": "LEBANON",
+      "id": "lbn",
+      "populacao": 0
+    },
+    {
+      "title": "LESOTHO",
+      "id": "les",
+      "populacao": 0
+    },
+    {
+      "title": "LIBERIA",
+      "id": "lbr",
+      "populacao": 0
+    },
+    {
+      "title": "LIBYA",
+      "id": "lba",
+      "populacao": 0
+    },
+    {
+      "title": "LIECHTENSTEIN",
+      "id": "lie",
+      "populacao": 0
+    },
+    {
+      "title": "LITHUANIA",
+      "id": "ltu",
+      "populacao": 0
+    },
+    {
+      "title": "LUXEMBOURG",
+      "id": "lux",
+      "populacao": 0
+    },
+    {
+      "title": "MADAGASCAR",
+      "id": "mad",
+      "populacao": 0
+    },
+    {
+      "title": "MALAWI",
+      "id": "maw",
+      "populacao": 0
+    },
+    {
+      "title": "MALAYSIA",
+      "id": "mas",
+      "populacao": 0
+    },
+    {
+      "title": "MALDIVES",
+      "id": "mdv",
+      "populacao": 0
+    },
+    {
+      "title": "MALI",
+      "id": "mli",
+      "populacao": 0
+    },
+    {
+      "title": "MALTA",
+      "id": "mlt",
+      "populacao": 0
+    },
+    {
+      "title": "MARSHALL ISLANDS",
+      "id": "mhl",
+      "populacao": 0
+    },
+    {
+      "title": "MAURITANIA",
+      "id": "mtn",
+      "populacao": 0
+    },
+    {
+      "title": "MAURITIUS",
+      "id": "mri",
+      "populacao": 0
+    },
+    {
+      "title": "MEXICO",
+      "id": "mex",
+      "populacao": 0
+    },
+    {
+      "title": "MONACO",
+      "id": "mon",
+      "populacao": 0
+    },
+    {
+      "title": "MONGOLIA",
+      "id": "mgl",
+      "populacao": 0
+    },
+    {
+      "title": "MONTENEGRO",
+      "id": "mne",
+      "populacao": 0
+    },
+    {
+      "title": "MOROCCO",
+      "id": "mar",
+      "populacao": 0
+    },
+    {
+      "title": "MOZAMBIQUE",
+      "id": "moz",
+      "populacao": 0
+    },
+    {
+      "title": "MYANMAR",
+      "id": "mya",
+      "populacao": 0
+    },
+    {
+      "title": "NAMIBIA",
+      "id": "nam",
+      "populacao": 0
+    },
+    {
+      "title": "NAURU",
+      "id": "nru",
+      "populacao": 0
+    },
+    {
+      "title": "NEPAL",
+      "id": "nep",
+      "populacao": 0
+    },
+    {
+      "title": "NETHERLANDS",
+      "id": "ned",
+      "populacao": 0
+    },
+    {
+      "title": "NEW ZEALAND",
+      "id": "nzl",
+      "populacao": 0
+    },
+    {
+      "title": "NICARAGUA",
+      "id": "nca",
+      "populacao": 0
+    },
+    {
+      "title": "NIGER",
+      "id": "nig",
+      "populacao": 0
+    },
+    {
+      "title": "NIGERIA",
+      "id": "ngr",
+      "populacao": 0
+    },
+    {
+      "title": "NORWAY",
+      "id": "nor",
+      "populacao": 0
+    },
+    {
+      "title": "OMAN",
+      "id": "oma",
+      "populacao": 0
+    },
+    {
+      "title": "PAKISTAN",
+      "id": "pak",
+      "populacao": 0
+    },
+    {
+      "title": "PALAU",
+      "id": "plw",
+      "populacao": 0
+    },
+    {
+      "title": "PALESTINE",
+      "id": "ple",
+      "populacao": 0
+    },
+    {
+      "title": "PANAMA",
+      "id": "pan",
+      "populacao": 0
+    },
+    {
+      "title": "PAPUA NEW GUINEA",
+      "id": "png",
+      "populacao": 0
+    },
+    {
+      "title": "PARAGUAY",
+      "id": "par",
+      "populacao": 0
+    },
+    {
+      "title": "PEOPLE'S REPUBLIC OF CHINA",
+      "id": "chn",
+      "populacao": 0
+    },
+    {
+      "title": "PERU",
+      "id": "per",
+      "populacao": 0
+    },
+    {
+      "title": "PHILIPPINES",
+      "id": "phi",
+      "populacao": 0
+    },
+    {
+      "title": "POLAND",
+      "id": "pol",
+      "populacao": 0
+    },
+    {
+      "title": "PORTUGAL",
+      "id": "por",
+      "populacao": 0
+    },
+    {
+      "title": "PUERTO RICO",
+      "id": "pur",
+      "populacao": 0
+    },
+    {
+      "title": "QATAR",
+      "id": "qat",
+      "populacao": 0
+    },
+    {
+      "title": "REPUBLIC OF KOREA",
+      "id": "kor",
+      "populacao": 0
+    },
+    {
+      "title": "REPUBLIC OF MOLDOVA",
+      "id": "mda",
+      "populacao": 0
+    },
+    {
+      "title": "ROMANIA",
+      "id": "rou",
+      "populacao": 0
+    },
+    {
+      "title": "RUSSIAN FEDERATION",
+      "id": "rus",
+      "populacao": 0
+    },
+    {
+      "title": "RWANDA",
+      "id": "rwa",
+      "populacao": 0
+    },
+    {
+      "title": "SAINT KITTS AND NEVIS",
+      "id": "skn",
+      "populacao": 0
+    },
+    {
+      "title": "SAINT LUCIA",
+      "id": "lca",
+      "populacao": 0
+    },
+    {
+      "title": "SAMOA (UNTIL 1996 WESTERN SAMOA)",
+      "id": "sam",
+      "populacao": 0
+    },
+    {
+      "title": "SAN MARINO",
+      "id": "smr",
+      "populacao": 0
+    },
+    {
+      "title": "SAO TOME AND PRINCIPE",
+      "id": "stp",
+      "populacao": 0
+    },
+    {
+      "title": "SAUDI ARABIA",
+      "id": "ksa",
+      "populacao": 0
+    },
+    {
+      "title": "SENEGAL",
+      "id": "sen",
+      "populacao": 0
+    },
+    {
+      "title": "SERBIA",
+      "id": "srb",
+      "populacao": 0
+    },
+    {
+      "title": "SEYCHELLES",
+      "id": "sey",
+      "populacao": 0
+    },
+    {
+      "title": "SIERRA LEONE",
+      "id": "sle",
+      "populacao": 0
+    },
+    {
+      "title": "SINGAPORE",
+      "id": "sgp",
+      "populacao": 0
+    },
+    {
+      "title": "SLOVAKIA",
+      "id": "svk",
+      "populacao": 0
+    },
+    {
+      "title": "SLOVENIA",
+      "id": "slo",
+      "populacao": 0
+    },
+    {
+      "title": "SOLOMON ISLANDS",
+      "id": "sol",
+      "populacao": 0
+    },
+    {
+      "title": "SOMALIA",
+      "id": "som",
+      "populacao": 0
+    },
+    {
+      "title": "SOUTH AFRICA",
+      "id": "rsa",
+      "populacao": 0
+    },
+    {
+      "title": "SOUTH SUDAN",
+      "id": "ssd",
+      "populacao": 0
+    },
+    {
+      "title": "SPAIN",
+      "id": "esp",
+      "populacao": 0
+    },
+    {
+      "title": "SRI LANKA",
+      "id": "sri",
+      "populacao": 0
+    },
+    {
+      "title": "ST VINCENT AND THE GRENADINES",
+      "id": "vin",
+      "populacao": 0
+    },
+    {
+      "title": "SUDAN",
+      "id": "sud",
+      "populacao": 0
+    },
+    {
+      "title": "SURItitle",
+      "id": "sur",
+      "populacao": 0
+    },
+    {
+      "title": "SWEDEN",
+      "id": "swe",
+      "populacao": 0
+    },
+    {
+      "title": "SWITZERLAND",
+      "id": "sui",
+      "populacao": 0
+    },
+    {
+      "title": "SYRIAN ARAB REPUBLIC",
+      "id": "syr",
+      "populacao": 0
+    },
+    {
+      "title": "TAJIKISTAN",
+      "id": "tjk",
+      "populacao": 0
+    },
+    {
+      "title": "THAILAND",
+      "id": "tha",
+      "populacao": 0
+    },
+    {
+      "title": "THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA",
+      "id": "mkd",
+      "populacao": 0
+    },
+    {
+      "title": "TIMOR-LESTE",
+      "id": "tls",
+      "populacao": 0
+    },
+    {
+      "title": "TOGO",
+      "id": "tog",
+      "populacao": 0
+    },
+    {
+      "title": "TONGA",
+      "id": "tga",
+      "populacao": 0
+    },
+    {
+      "title": "TRINIDAD AND TOBAGO",
+      "id": "tto",
+      "populacao": 0
+    },
+    {
+      "title": "TUNISIA",
+      "id": "tun",
+      "populacao": 0
+    },
+    {
+      "title": "TURKEY",
+      "id": "tur",
+      "populacao": 0
+    },
+    {
+      "title": "TURKMENISTAN",
+      "id": "tkm",
+      "populacao": 0
+    },
+    {
+      "title": "TUVALU",
+      "id": "tuv",
+      "populacao": 0
+    },
+    {
+      "title": "UGANDA",
+      "id": "uga",
+      "populacao": 0
+    },
+    {
+      "title": "UKRAINE",
+      "id": "ukr",
+      "populacao": 0
+    },
+    {
+      "title": "UNITED ARAB EMIRATES",
+      "id": "uae",
+      "populacao": 0
+    },
+    {
+      "title": "UNITED REPUBLIC OF TANZANIA",
+      "id": "tan",
+      "populacao": 0
+    },
+    {
+      "title": "UNITED STATES OF AMERICA",
+      "id": "usa",
+      "populacao": 0
+    },
+    {
+      "title": "URUGUAY",
+      "id": "uru",
+      "populacao": 0
+    },
+    {
+      "title": "UZBEKISTAN",
+      "id": "uzb",
+      "populacao": 0
+    },
+    {
+      "title": "VANUATU",
+      "id": "van",
+      "populacao": 0
+    },
+    {
+      "title": "VENEZUELA",
+      "id": "ven",
+      "populacao": 0
+    },
+    {
+      "title": "VIETNAM",
+      "id": "vie",
+      "populacao": 0
+    },
+    {
+      "title": "VIRGIN ISLANDS, BRITISH",
+      "id": "ivb",
+      "populacao": 0
+    },
+    {
+      "title": "VIRGIN ISLANDS, US",
+      "id": "isv",
+      "populacao": 0
+    },
+    {
+      "title": "YEMEN",
+      "id": "yem",
+      "populacao": 0
+    },
+    {
+      "title": "ZAMBIA",
+      "id": "zam",
+      "populacao": 0
+    },
+    {
+      "title": "ZIMBABWE",
+      "id": "zim",
+      "populacao": 0
+    }
+  ]
+}
