@@ -24,9 +24,11 @@ export const Divcountry = styled.div`
     justify-content: center;
     justify-items: center;
     justify-self: center;
+    background: '#999';
 
     .btnSalvar {
-      background: #7159c1;
+      background: #4682b4;
+      border-radius: 20px;
       width: 400px;
       height: 180px;
       font-size: 65px;
@@ -35,7 +37,7 @@ export const Divcountry = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.05, '#7159c1')};
+        background: ${darken(0.05, '#4682b4')};
       }
     }
   }
@@ -51,7 +53,8 @@ export const Divcountry = styled.div`
     margin-left: 10px;
     height: 55px;
     width: 100px;
-    background: #7159c1;
+    background: #4682b4;
+    border-radius: 20px;
     color: #fff;
     border-radius: 4px;
     font-size: 18px;
@@ -59,7 +62,7 @@ export const Divcountry = styled.div`
     transition: background 0.2s;
 
     &:hover {
-      background: ${darken(0.05, '#7159c1')};
+      background: ${darken(0.05, '#4682b4')};
     }
   }
 
@@ -71,4 +74,9 @@ export const Divcountry = styled.div`
 export const Rodape = styled.footer`
   display: flex;
   justify-content: space-between;
+
+  a:hover {
+    border: solid 1px;
+    border-color: yellowgreen;
+  }
 `;

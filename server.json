@@ -1,63 +1,13 @@
 {
   "country": [
     {
-      "title": "AFGHANISTAN",
-      "id": "afg",
-      "populacao": 0
-    },
-    {
-      "id": "ang",
-      "title": "ANGOLA",
-      "populacao": 1001
-    },
-    {
-      "title": "ALBANIA",
       "id": "alb",
-      "populacao": 0
-    },
-    {
-      "title": "ALGERIA",
-      "id": "alg",
-      "populacao": 0
-    },
-    {
-      "title": "AMERICAN SAMOA",
-      "id": "asa",
-      "populacao": 0
-    },
-    {
-      "title": "ANDORRA",
-      "id": "and",
-      "populacao": 0
+      "title": "ALBANIA",
+      "populacao": 9
     },
     {
       "title": "ANTIGUA AND BARBUDA",
       "id": "ant",
-      "populacao": 0
-    },
-    {
-      "id": "arg",
-      "title": "ARGENTINA",
-      "populacao": 11
-    },
-    {
-      "title": "ARMENIA",
-      "id": "arm",
-      "populacao": 0
-    },
-    {
-      "id": "aru",
-      "title": "ARUBA",
-      "populacao": 2
-    },
-    {
-      "id": "aus",
-      "title": "AUSTRALIA",
-      "populacao": 1
-    },
-    {
-      "title": "AUSTRIA",
-      "id": "aut",
       "populacao": 0
     },
     {
@@ -66,24 +16,19 @@
       "populacao": 0
     },
     {
-      "id": "bah",
-      "title": "BAHAMAS",
-      "populacao": 3
-    },
-    {
-      "title": "BAHRAIN",
       "id": "brn",
-      "populacao": 0
+      "title": "BAHRAIN",
+      "populacao": 60
     },
     {
-      "title": "BANGLADESH",
       "id": "ban",
-      "populacao": 0
+      "title": "BANGLADESH",
+      "populacao": 72
     },
     {
-      "title": "BARBADOS",
       "id": "bar",
-      "populacao": 0
+      "title": "BARBADOS",
+      "populacao": 202768168
     },
     {
       "title": "BELARUS",
@@ -91,18 +36,13 @@
       "populacao": 0
     },
     {
-      "title": "BELGIUM",
-      "id": "bel",
-      "populacao": 0
-    },
-    {
-      "title": "BELIZE",
       "id": "biz",
-      "populacao": 0
+      "title": "BELIZE",
+      "populacao": 25
     },
     {
-      "title": "BENIN",
       "id": "ben",
+      "title": "BENIN",
       "populacao": 0
     },
     {
@@ -111,14 +51,9 @@
       "populacao": 0
     },
     {
-      "title": "BHUTAN",
       "id": "bhu",
-      "populacao": 0
-    },
-    {
-      "id": "bol",
-      "title": "BOLIVIA",
-      "populacao": 55550
+      "title": "BHUTAN",
+      "populacao": 2027680000
     },
     {
       "title": "BOSNIA AND HERZEGOVINA",
@@ -131,9 +66,9 @@
       "populacao": 0
     },
     {
+      "id": "bra",
       "title": "BRAZIL",
-      "populacao": 202768123,
-      "id": "bra"
+      "populacao": 202768121
     },
     {
       "title": "BRUNEI DARUSSALAM",

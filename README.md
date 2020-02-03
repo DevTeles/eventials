@@ -6,7 +6,7 @@
 
 ### Um pouco sobre as ferramentas
 
-ESLint, Prettier, EditorConfig e React Toastify.
+ESLint, Prettier, EditorConfig e SweetAlert2.
 
 ### Executar os três comandos abaixo:
 

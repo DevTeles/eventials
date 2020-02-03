@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Input, Select as RokectSelect } from '@rocketseat/unform';
 import { toast } from 'react-toastify';
-import { FaLinkedin, FaGit } from 'react-icons/fa';
+import Swal from 'sweetalert2';
+import { FaLinkedin, FaGit, FaThumbsUp } from 'react-icons/fa';
+import { MdDelete } from 'react-icons/md';
 import api from '../../services/api';
 import { Divcountry, Groupcountry, Rodape } from './styles';
 
@@ -20,16 +22,11 @@ export default function Home() {
     }
     loadPais();
     // eslint-disable-next-line
-  }, []);
+  }, [selecionado]);
 
   async function handleSubmit() {
     if (selecionado === undefined || selecionado.toString() === '') {
-      toast.info('Favor selecionar um pais!', {
-        position: 'top-right',
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-      });
+      Swal.fire('Favor selecionar um pais!');
     } else {
       const dados = await api.get(`country/${selecionado}`);
 
@@ -49,14 +46,13 @@ export default function Home() {
             setCountry(atualiza.data);
           }
 
-          toast.success('Salvo com sucesso!', {
-            position: 'top-right',
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Salvo com sucesso',
+            showConfirmButton: false,
+            timer: 1500,
           });
-
-          // setCountryPopulacao(0);
         }
       }
     }
@@ -71,45 +67,52 @@ export default function Home() {
     }
   }
 
+  async function handleDelete() {
+    await api.delete(`country/${selecionado}`);
+    Swal.fire('Deletado!', 'Seu item foi deletado.', 'success');
+    setSelecionado('');
+  }
+
   async function handleRemoverPais() {
-    const response = await api.delete(`country/${selecionado}`);
-
-    if (response.data) {
-      toast.success('Pais removido com sucesso!', {
-        position: 'top-right',
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
+    if (selecionado) {
+      Swal.fire({
+        title: 'Você tem certeza?',
+        text: 'Você não poderá reverter isso!',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Sim, apague!',
+      }).then(result => {
+        if (result.value) {
+          handleDelete();
+        }
       });
-    }
-
-    const atualiza = await api.get('/country?_sort=populacao&_order=desc');
-
-    if (atualiza.data) {
-      setCountry(atualiza.data);
+    } else {
+      Swal.fire('Favor selecione um país para excluir!');
     }
   }
 
   return (
     <>
       <Divcountry>
-        <Groupcountry>
-          <RokectSelect
-            name="title"
-            options={country}
-            placeholder="Selecione o país:"
-            onChange={e => handleChangeCountry(e)}
-          />
-          <button
-            className="btnRemover"
-            type="button"
-            onClick={handleRemoverPais}
-          >
-            Remover item
-          </button>
-        </Groupcountry>
-
         <Form onSubmit={handleSubmit}>
+          <Groupcountry>
+            <RokectSelect
+              name="title"
+              options={country}
+              placeholder="Selecione o país:"
+              onChange={e => handleChangeCountry(e)}
+            />
+            <button
+              className="btnRemover"
+              type="button"
+              alt="Remover item"
+              onClick={handleRemoverPais}
+            >
+              <MdDelete size={30} />
+            </button>
+          </Groupcountry>
           <Input
             name="teste"
             type="number"
@@ -118,6 +121,7 @@ export default function Home() {
             placeholder="Digite a população aqui"
           />
           <button className="btnSalvar" type="submit">
+            <FaThumbsUp size={100} />
             Salvar
           </button>
         </Form>
